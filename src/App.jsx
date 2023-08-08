@@ -1,7 +1,7 @@
 // import "./App.css";
 import studentData from "./data/data.json"
-import StudentCards from "./Components/StudentCards.jsx";
-import StudentList from "./Components/StudentList.jsx";
+// import StudentCards from "./Components/StudentCards.jsx";
+import Students from "./Components/Students.jsx";
 // import CohortList from "./Components/CohortList.jsx"
 import { useState } from "react";
 
@@ -13,10 +13,8 @@ function App() {
   return (
     <div className="pageStyle">
       <h1>Student Dashboard</h1>
-      <StudentList 
+      <Students
       students={students}/>
-      {/* <CohortList
-      cohort={student.cohort} /> */}
     </div>
   );
 }

@@ -1,16 +1,15 @@
-import React from 'react';
+import react from 'react';
 
 
-const StudentList = {(students)} => {
-  const name = students.name;
-  const userName= students.username;
-  const birthday= students.dob;
+const StudentList = ({student}) => {
+
     return (
       <div className="studentList">
-        <h2>Name: {name}</h2>
-        <p>Email: {userName}</p>
-        <p>Birthday: {birthday}</p>
+        <h2>Name: {student.name}</h2>
+        <p>Email: {student.username}</p>
+        <p>Birthday: {student.dob}</p>
         <button>Show More...</button>
+        <img src ''
       </div>
     );
   }
