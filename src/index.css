@@ -1,0 +1,35 @@
+.pageStyle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  border: 20px solid red;
+}
+
+
+h1,h2,h3,h4,p,span {
+  font-family: Georgia;
+}
+
+
+header {
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Georgia;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.studentList {
+  border: 20px solid red ;
+  justify-content: right;
+
+}
+
+.cohortList {
+  border: 20px solid red;
+  justify-content: left;
+}

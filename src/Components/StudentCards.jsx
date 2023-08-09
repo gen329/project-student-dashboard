@@ -1,19 +1,15 @@
-// import React from 'react';
+import React from 'react';
 
-// const StudentCards = ({students}) => {
-//   const name = students.name;
-//   const userName= students.username;
-//   const birthday= students.dob;
-
-//     return (
-//       <div className="studentCard">
-//         <h2>Name: {name}</h2>
-//         <p>Email: {userName}</p>
-//         <p>Birthday: {birthday}</p>
-//         <button>Show More...</button>
-//       </div>
-//     )
-//   }
+const StudentCards = ({student}) => {
+    return (
+      <div id= {student.id} className="studentCard">
+        <h4>Name: {student.names.preferredName}</h4>
+        <span>Email: {student.username}</span>
+        <span>Birthday: {student.dob}</span>
+        <span></span>
+      </div>
+    )
+  }
 
 
-// export default StudentCards;
+export default StudentCards;

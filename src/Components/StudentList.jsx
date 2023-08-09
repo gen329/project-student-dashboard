@@ -9,7 +9,7 @@ const StudentList = ({student}) => {
         <p>Email: {student.username}</p>
         <p>Birthday: {student.dob}</p>
         <button>Show More...</button>
-        <img src ''
+        <img src= {student.profilePhoto}></img>
       </div>
     );
   }

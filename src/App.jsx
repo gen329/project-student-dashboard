@@ -8,11 +8,18 @@ import { useState } from "react";
 
 function App() {
   const [students, setStudents] = useState(studentData)
-  // const [cohort, setCohort] = useState([])
+  // const [cohort, setCohort] = useState(students.cohort)
+
+  // function handleClick() {
+  // }
 
   return (
     <div className="pageStyle">
-      <h1>Student Dashboard</h1>
+      <header>Student Dashboard</header>
+      {/* < CohortList
+      cohort={cohort} /> */}
+      <h2>All Students</h2>
+      <p>Total Students: </p>
       <Students
       students={students}/>
     </div>
