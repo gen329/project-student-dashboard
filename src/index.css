@@ -17,6 +17,8 @@ header {
   text-align: center;
   font-weight: bold;
   font-family: Georgia;
+  background-color: pink;
+  height: 100px;
 }
 
 h2 {

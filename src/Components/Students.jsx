@@ -1,10 +1,10 @@
 import React from 'react';
-import StudentList from './StudentList';
+import StudentCards from './StudentCard';
 
 const Students = ({ students }) => {
   return (
     <div className="students">
-      {students.map((student) => <StudentList
+      {students.map((student) => <StudentCard
         student={student} />
       )}
     </div>
