@@ -1,6 +1,6 @@
 // import "./App.css";
 import studentData from "./data/data.json"
-import Students from "./Components/Students.jsx";
+import StudentList from "./Components/StudentList.jsx";
 
 // import StudentCards from "./Components/StudentCards.jsx";
 // import CohortList from "./Components/CohortList.jsx"
@@ -20,7 +20,7 @@ function App() {
 
       <h2>All Students</h2>
       <p>Total Students: </p>
-      <Students
+      <StudentList
       students={students}/>
     </div>
   );

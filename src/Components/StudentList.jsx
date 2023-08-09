@@ -1,18 +1,14 @@
-import react from 'react';
+import React from 'react';
+import StudentCard from './StudentCard.jsx';
 
-
-const StudentList = ({student}) => {
-
-    return (
-      <div className="studentList">
-        <h2>Name: {student.name}</h2>
-        <p>Email: {student.username}</p>
-        <p>Birthday: {student.dob}</p>
-        <button>Show More...</button>
-        <img src= {student.profilePhoto}></img>
-      </div>
-    );
-  }
+const StudentList = ({ students }) => {
+  return (
+    <div className="students">
+      {students.map((student) => <StudentCard student={student} />
+      )}
+    </div>
+  );
+}
 
 
 export default StudentList;
