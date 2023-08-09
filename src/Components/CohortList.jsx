@@ -1,12 +1,12 @@
 import React from "react";
 
 
-const CohortList = ({cohort}) => {
+const CohortList = () => {
 
     return (
       <div className="CohortList">
         <h2>Choose a Class by Start Date</h2>
-        <li>{cohort}</li>
+        <li></li>
       </div>
     );
   }

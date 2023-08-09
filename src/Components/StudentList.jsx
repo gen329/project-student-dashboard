@@ -4,8 +4,7 @@ import StudentCard from './StudentCard.jsx';
 const StudentList = ({ students }) => {
   return (
     <div className="students">
-      {students.map((student) => <StudentCard student={student} />
-      )}
+      {students.map((student) => <StudentCard student={student} />)}
     </div>
   );
 }

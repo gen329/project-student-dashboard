@@ -25,7 +25,7 @@ h2 {
   font-size: 30px;
 }
 
-.studentList {
+.studentCard {
   border: 20px solid red ;
   justify-content: right;
 
@@ -34,4 +34,9 @@ h2 {
 .cohortList {
   border: 20px solid red;
   justify-content: left;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
 }
