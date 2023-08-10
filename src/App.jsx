@@ -1,14 +1,13 @@
-// import "./App.css";
-import studentData from "./data/data.json"
+import StudentData from "./data/data.json"
 import StudentList from "./Components/StudentList.jsx";
 
-// import StudentCards from "./Components/StudentCards.jsx";
+
 // import CohortList from "./Components/CohortList.jsx"
 import { useState } from "react";
 
 
 function App() {
-  const [students, setStudents] = useState(studentData)
+  const [students, setStudents] = useState(StudentData)
 
 
   // function handleClick() {
@@ -21,7 +20,7 @@ function App() {
       <h2>All Students</h2>
       <p>Total Students: </p>
       <StudentList
-      students={students}/>
+        students={students} />
     </div>
   );
 }
