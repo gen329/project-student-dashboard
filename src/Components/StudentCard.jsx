@@ -1,4 +1,5 @@
 import React from "react";
+import StudentDetails from "./StudentDetails";
 
 const StudentCard = ({ student }) => {
   return (
@@ -11,7 +12,7 @@ const StudentCard = ({ student }) => {
       <br></br>
       <span>Birthday: {student.dob}</span>
       <br></br>
-      <button> Show More </button>
+      <button><StudentDetails/></button>
     </div>
   );
 };

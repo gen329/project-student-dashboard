@@ -1,6 +1,6 @@
 import StudentData from "./data/data.json"
 import StudentList from "./Components/StudentList.jsx";
-
+import StudentDetails from "./Components/StudentDetails.jsx";
 
 // import CohortList from "./Components/CohortList.jsx"
 import { useState } from "react";
@@ -20,6 +20,8 @@ function App() {
       <h2>All Students</h2>
       <p>Total Students: </p>
       <StudentList
+        students={students} />
+      <StudentDetails
         students={students} />
     </div>
   );

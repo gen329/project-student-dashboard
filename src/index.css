@@ -40,3 +40,8 @@ h2 {
   height: 100px;
   width: 100px;
 }
+
+.studentDetail {
+  border: 20px solid green; 
+
+}
