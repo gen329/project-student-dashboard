@@ -5,14 +5,12 @@ const StudentCard = ({ student }) => {
   return (
     <div className="studentCard">
       <img className="img" src={student.profilePhoto}></img>
-      <h4>
-        {student.names.preferredName} {student.names.surname}
-      </h4>
-      <span>Email: {student.username}</span>
+      <h4> {student.names.preferredName} {student.names.surname} </h4>
+      <p>Email: {student.username}</p>
       <br></br>
-      <span>Birthday: {student.dob}</span>
+      <p>Birthday: {student.dob}</p>
       <br></br>
-      <button><StudentDetails/></button>
+      <StudentDetails student={student} />
     </div>
   );
 };
