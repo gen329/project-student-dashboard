@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
+// import React from 'react';
 
 
 
-const OneOneSection = () => {
+// const OneOneSection = () => {
 
-    return (
-      <div className='OneOneSection'>
-        <h2>1-on-1 Notes</h2>
-      </div>
-    );
-  }
+//     return (
+//       <div className='OneOneSection'>
+//         <h2>1-on-1 Notes</h2>
+//       </div>
+//     );
+//   }
 
-
-
-export default OneOneSectionJsx;
+//   export default One_One_Section; 

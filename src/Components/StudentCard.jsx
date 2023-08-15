@@ -4,7 +4,7 @@ import StudentDetails from "./StudentDetails";
 const StudentCard = ({ student }) => {
   return (
     <div className="studentCard">
-      <img className="img" src={student.profilePhoto}/>
+      <img className="img" src={student.profilePhoto} />
       <h4> {student.names.preferredName} {student.names.surname} </h4>
       <p>Email: {student.username} </p>
       <br></br>

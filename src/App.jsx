@@ -1,14 +1,14 @@
 import StudentData from "./data/data.json"
 import StudentList from "./Components/StudentList.jsx";
 import CohortList from "./Components/CohortList.jsx";
-import OneOneSectionJsx from "./Components/One_One_Section.jsx";
+// import One_One_Section from "./Components/One_One_Section.jsx";
 import { useState } from "react";
 
 
 function App() {
   const [students, setStudents] = useState(StudentData)
 
-console.log(students)
+
   // function handleClick() {
   // }
 
@@ -21,7 +21,7 @@ console.log(students)
       <div className="container">
         <div className="feedContainer">
           <CohortList />
-          <OneOneSection />
+          {/* <One_One_Section /> */}
         </div>
         <StudentList students={students} />
       </div>
