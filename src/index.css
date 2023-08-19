@@ -26,6 +26,8 @@ h2 {
 
 .studentCard {
   justify-content: right;
+  border: 1px solid black;
+  width: 50vw;
 
 }
 
@@ -33,7 +35,7 @@ h2 {
   justify-content: left;
   width: 50vw;
   font-size: 20px;
-  border: 5px solid red;
+  border: 1px solid black;
 }
 
 .img {
@@ -48,12 +50,12 @@ h2 {
 .container {
   display: flex;
   justify-content: space-apart;
-  border: 1px solid green;
+
   
 }
 
 .feedContainer {
-  border: 1px solid red;
+  border: 1px solid black;
 
 }
 
