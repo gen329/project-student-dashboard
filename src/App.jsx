@@ -8,10 +8,6 @@ import { useState } from "react";
 function App() {
   const [students, setStudents] = useState(StudentData)
 
-
-  // function handleClick() {
-  // }
-
   return (
     <div className="pageStyle">
       <header>Student Dashboard </header>

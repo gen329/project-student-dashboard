@@ -1,10 +1,9 @@
 import React from 'react';
 
-
-
 const CohortCard = ({cohort}) => {
+  
   return (
-    <div onClick="">
+    <div className='cohortCard'>
       {cohort}
     </div>
   );
