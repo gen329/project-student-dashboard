@@ -6,7 +6,8 @@ import { useState } from "react";
 
 
 function App() {
-  const [students, setStudents] = useState(StudentData)
+  const [students, setStudents] = useState(StudentData);
+  const [selectedCohort, setSelectedCohort] = useState(null);
 
   return (
     <div className="pageStyle">
@@ -16,7 +17,7 @@ function App() {
       <p>Total Students:{students.length} </p>
       <div className="container">
         <div className="feedContainer">
-          <CohortList />
+          <CohortList selectedCohortSetter={{setSelectedCohort}}/>
           {/* <One_One_Section /> */}
         </div>
         <StudentList students={students} />

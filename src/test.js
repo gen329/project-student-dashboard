@@ -6,3 +6,5 @@ const separatedCohorts = cohorts.map(cohort => {
   return `${season} ${year}`
 });
 console.log(separatedCohorts)
+
+const winter = 'Winter 2035'
